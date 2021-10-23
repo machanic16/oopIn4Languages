@@ -5,6 +5,10 @@ class Main {
     uberx1.printDataCar();
     System.out.println(uberx1.driver.email);
     System.out.println(uberx1.brand + " " + uberx1.model);
+
+    UberVan uberVan = new UberVan("YuKa", new Driver("Joel", "12SDCR", "j@gmail.com"));
+    uberVan.setPassenger(6);
+    uberVan.printDataCar();
     //System.out.println("Car License: " + car.license);
 
     /*Car car2 = new Car("QWE567", new Driver("Andrea Herrera", "HER678S", "d3@gmail.com"));
